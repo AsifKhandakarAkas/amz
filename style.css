@@ -1,0 +1,25 @@
+/* .height{ 
+    max-height: 20px;
+}*/
+
+@media screen and (max-width: 365px) {
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  p {
+    font-size: 3.9vw;
+  }
+}
+/* @media screen and (max-width:400px) { 
+    .r img{
+        max-width: 100%;
+    max-height: 100%;
+        
+    }
+}*/
+/* @media (max-width: 767.98px) { 
+    .s{
+        display:block;
+    }
+ } */

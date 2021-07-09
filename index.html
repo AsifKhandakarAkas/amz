@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>project amz</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- navigation segment -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+
+      <a class="navbar-brand" href="#">Akas</a>
+
+
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">Item1</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Item2
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">Item3</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Item4
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Item5
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Item6
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Blog and reviws
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+      </ul>
+
+    </div>
+  </nav>
+
+
+
+  <div class="container my-2">
+    <div class="row">
+
+      <div class="col bg-dark">
+        <!-- popular product -->
+        <hr class="bg-danger border-4 border-top border-danger">
+        <div>
+          <h3 class="text-light">POPULAR PRODUCTS</h3>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+            <a href="#" class="list-group-item list-group-item-action " tabindex="-1" aria-disabled="true">A disabled
+              link item</a>
+            <a href="#" class="list-group-item list-group-item-action">
+              The current link item
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+            <a class="btn btn-success" href="#" role="button">see all</a>
+          </div>
+        </div>
+
+
+        <hr class="bg-danger border-4 border-top border-danger">
+        <!-- updated new product -->
+        <div>
+          <h3 class="text-light">
+            NEW PRODUCTS
+          </h3>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">
+              The current link item
+            </a> <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+            <a href="#" class="list-group-item list-group-item-action " tabindex="-1" aria-disabled="true">A disabled
+              link item</a>
+            <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+            <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+            <a href="#" class="list-group-item list-group-item-action " tabindex="-1" aria-disabled="true">A disabled
+              link item</a>
+            <a href="#" class="list-group-item list-group-item-action">
+              The current link item
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+            <a class="btn btn-success" href="#" role="button">see all</a>
+
+          </div>
+        </div>
+      </div>
+      <!-- showcae -->
+      <div id="carouselExampleCaptions" class="carousel slide col-6 " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="d3.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="d3.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="d3.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, exercitationem sint. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Iusto, exercitationem Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Unde doloremque neque ipsam iure nesciunt rem quae asperiores consequuntur culpa molestiae
+            eveniet voluptate fuga voluptatem, ipsa itaque sed quos, suscipit possimus. Itaque, debitis laudantium.
+          </p>
+        </div>
+      </div>
+
+
+      <!-- hot deals -->
+      <div class="col bg-dark">
+        <h3 class="text-light">
+          TODAYS HOT DEAL
+        </h3>
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">
+            <h4 class="text-success">Lorem ipsum dolor sit amet.</h4> A simple secondary list group item Lorem ipsum
+            dolor sit amet consectetur adipisicing. <img src="d2.jpg" alt="">
+          </a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-secondary"><a href="#"
+              class="list-group-item list-group-item-action list-group-item-secondary">
+              <h4 class="text-success">Lorem ipsum dolor sit amet.</h4>A simple secondary list group item Lorem ipsum
+              dolor sit amet consectetur adipisicing.<img src="d2.jpg" alt="">
+            </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- content according to categories -->
+
+  <div class="container pt-2 bg-light border border-dark border-2">
+    <!-- Content here 1-->
+
+
+    <div class="container">
+      <h1>ITEM NO 01</h1>
+      <div class="row row-cols-auto">
+        <div class="col-6"><img src="d1.png" class="d-block w-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima.</p>
+        </div>
+        <div class="col-3"><img src="d2.jpg" class="d-block w-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima.</p>
+        </div>
+        <div class="col-3"><img src="d2.jpg" class="d-block w-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Content here 2-->
+    <hr class="bg-danger border-4 border-top border-danger">
+
+    <div class="container">
+      <h1>ITEM NO 02</h1>
+      <div class="row row-cols-auto">
+        <div class="col-6"><img src="d1.png" class="d-block w-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima.</p>
+        </div>
+        <div class="col-3"><img src="d2.jpg" class="d-block w-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima.</p>
+        </div>
+        <div class="col-3"><img src="d2.jpg" class="d-block w-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Content here 3-->
+    <hr class="bg-danger border-4 border-top border-danger">
+
+    <div class="container">
+      <h1>ITEM NO 03</h1>
+      <div class="row row-cols-auto">
+        <div class="col-6"><img src="d1.png" class="d-block w-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima.</p>
+        </div>
+        <div class="col-3"><img src="d2.jpg" class="d-block w-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima.</p>
+        </div>
+        <div class="col-3"><img src="d2.jpg" class="d-block w-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Content here 4-->
+    <hr class="bg-danger border-4 border-top border-danger">
+
+    <div class="container">
+      <h1>ITEM NO 04</h1>
+      <div class="row row-cols-auto">
+        <div class="col-6"><img src="d1.png" class="d-block w-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima.</p>
+        </div>
+        <div class="col-3"><img src="d2.jpg" class="d-block w-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima.</p>
+        </div>
+        <div class="col-3"><img src="d2.jpg" class="d-block w-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Content here 5-->
+    <hr class="bg-danger border-4 border-top border-danger">
+
+    <div class="container">
+      <h1>ITEM NO 05</h1>
+      <div class="row row-cols-auto">
+        <div class="col-6"><img src="d1.png" class="d-block w-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima.</p>
+        </div>
+        <div class="col-3"><img src="d2.jpg" class="d-block w-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima.</p>
+        </div>
+        <div class="col-3"><img src="d2.jpg" class="d-block w-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Content here 6-->
+    <hr class="bg-danger border-4 border-top border-danger">
+
+    <div class="container">
+      <h1>ITEM NO 06</h1>
+      <div class="row row-cols-auto">
+        <div class="col-6"><img src="d1.png" class="d-block w-100" alt="">
+          <p>1Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima.</p>
+        </div>
+        <div class="col-3"><img src="d2.jpg" class="d-block w-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima.</p>
+        </div>
+        <div class="col-3"><img src="d2.jpg" class="d-block w-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- test -->
+    <hr class="bg-danger border-4 border-top border-danger">
+
+    <div class="container">
+      <h1>ITEM NO 06</h1>
+      <div class="row row-cols-auto">
+        <div class="col-6"><img src="d1.png" class="d-block w-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima.</p>
+        </div>
+        <div class="col-6">
+          <div class="row">
+            <div class="col-6"><img src="d2.jpg" class="d-block w-100" alt=""></div>
+
+            <div class="col-6">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima.</p>
+            </div>
+          </div> <br>
+          <div class="row">
+            <div class="col-6"><img src="d2.jpg" class="d-block w-100" alt=""></div>
+
+            <div class="col-6">
+              <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+                reprehenderit error. consectetur adipisicing elit. Rerum, minima.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+  <!-- back to top  -->
+  <div class=" text-center py-2 bg-secondary  "><a href="" class="text-decoration-none text-light" id="scrollup">
+      <h3>Go to top</h3>
+    </a> </div>
+  <!-- footer -->
+
+  <footer class="bg-dark text-light   pt-5 pb-2">
+
+    <div class="container">
+      <div class="row d-flex">
+        <div class="col pb-3 ">
+          <ul class=" d-flex p-2 bd-highlight row list-unstyled pagination text-center" style="font-size: 150%">
+            <li><a href="#" class="text-decoration-none text-light">Popular</a></li>
+            <li><a href="#" class="text-decoration-none text-light">Latest</a></li>
+            <li><a href="#" class="text-decoration-none text-light">Item1</a></li>
+          </ul>
+        </div>
+        <div class="col pb-3 ">
+          <ul class=" d-flex p-2 bd-highlight row list-unstyled pagination text-center" style="font-size: 150%">
+            <li><a href="#" class="text-decoration-none text-light">Item2</a></li>
+            <li><a href="#" class="text-decoration-none text-light">Item3</a></li>
+            <li><a href="#" class="text-decoration-none text-light">Item4</a></li>
+          </ul>
+        </div>
+        <div class="col pb-3 ">
+          <ul class=" d-flex p-2 bd-highlight row list-unstyled pagination text-center" style="font-size: 150%">
+            <li><a href="#" class="text-decoration-none text-light">Item5</a></li>
+            <li><a href="#" class="text-decoration-none text-light">Item6</a></li>
+            <li><a href="#" class="text-decoration-none text-light">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class=" row text-center d-flex p-2 bd-highlight">
+        <div class="col">
+          <h1>Lorem ipsum dolor sit amet.</h1>
+          <p>dhfahfa dahahg soidg aohsdh</p>
+        </div>
+        <div class="col">
+          <h1>lorem lodfh dskh</h1>
+          <p>fladsskfj djhd</p>
+          <p>jash hd digf jfhds hncds</p>
+        </div>
+        <div class="col">
+          <h2>fhasd dhfjfadsjh</h2>
+          <p>djf fesd ndjd jfos</p>
+        </div>
+      </div>
+    </div>
+    <hr class="bg-light border-4 border-top border-light">
+    <p>&copy;Akas</p>
+  </footer>
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+
+      // Select all »a« elements with a parent tag »nav« and add a function that is executed on click
+      $('#id scrollup').on('click', function (e) {
+
+        // Define variable of the clicked »a« element (»this«) and get its href value.
+        var href = $(this).attr('href')
+
+        // Run a scroll animation to the position of the element which has the same id like the href value.
+        $('html, body').animate({
+          scrollTop: $(href).offset().top
+        }, '300')
+
+        // Prevent the browser from showing the attribute name of the clicked link in the address bar
+        e.preventDefault()
+
+      })
+    </script>
+
+
+</body>
+
+</html>
